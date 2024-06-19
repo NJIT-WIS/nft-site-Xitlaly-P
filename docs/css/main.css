@@ -1,5 +1,6 @@
 :root{
     --background-color: #010137;
+    --base-link-color: #ffffff;
 
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Outfit', sans-serif;
@@ -15,4 +16,38 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: var(--font-secondary);
     text-transform: capitalize;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+a{
+    color: var(--base-link-color);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    line-height: 4rem;
+    font-size: 1.25rem;
+    font-family: var(--font-secondary);
+    font-weight: bold;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 33.33%;
+    gap:30px;
+}
+
+.menu-items{
+    text-align: right;
 }
