@@ -1,0 +1,18 @@
+:root{
+    --background-color: #010137;
+
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Outfit', sans-serif;
+
+    --base-font-size: 1rem;
+}
+body{
+    background: var(--background-color);
+    color:white;
+    font: var(--base-font-size) / 1.6 var(--font-primary)
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-secondary);
+    text-transform: capitalize;
+}
