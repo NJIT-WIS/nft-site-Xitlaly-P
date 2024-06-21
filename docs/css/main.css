@@ -1,6 +1,8 @@
 :root{
     --background-color: #010137;
     --base-link-color: #ffffff;
+    --primary-color: #8C8BDA;
+    --secondary-color: #e68;
 
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Outfit', sans-serif;
@@ -50,4 +52,96 @@ header{
 
 .menu-items{
     text-align: right;
+}
+
+.hero{
+    margin-top:3rem;
+    margin-bottom:3rem;
+    display:flex;
+    justify-content: space-between;
+    background: var(--background-color);
+    font: 2rem / 1.6 var(--font-primary);
+}
+.hero h1{
+    font-size: 5rem;
+    margin-top: 5rem;
+    font-weight: bold;
+    line-height:4.5rem;
+    margin-bottom:0px;
+}
+
+.sub-text{
+    font-size: 1rem;
+    width:65%;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+    background-repeat: no-repeat;
+    height: calc(50vh - 5rem);
+    margin-bottom:5rem;
+}
+
+a.pill-link{
+    display: inline-block;
+    font-size:1rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+    color:#fff;
+    text-decoration: none;
+    transition: background-color .3s ease;
+    width: 30%;
+    height: 3rem;
+    align-content: center;
+    font-weight:450;
+}
+a.alt-pill-link{
+    display: inline-block;
+    font-size:1rem;
+    text-transform:uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color:#fff;
+    text-decoration: none;
+    transition: background-color .3s ease;
+    width: 30%;
+    height: 3rem;
+    border-color: #99D5D6;
+    border-width: 1px;
+    border-style:solid;
+    align-content: center;
+    font-weight:450;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-image{
+    max-width:50%;
+    height:auto;
+    align-self: flex-end;
+}
+
+.elip1{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 5rem;
+}
+
+.elip2{
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    top: 10px;
 }
