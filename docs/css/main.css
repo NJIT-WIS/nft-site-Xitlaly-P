@@ -213,3 +213,16 @@ a.alt-pill-link{
     padding-right:3rem;
     padding-left:3rem;
 }
+
+.clip-section{
+    margin-top:8rem;
+    padding-left:2rem;
+    margin-bottom:6rem;
+    align-self:center;
+}
+
+.hero-img2{
+    height:max-content;
+    padding:0;
+    margin:0;
+}
