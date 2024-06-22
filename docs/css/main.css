@@ -150,6 +150,7 @@ a.alt-pill-link{
     font-size:1rem;
     text-transform:uppercase;
     letter-spacing: .2rem;
+    margin-top: 0px;
 }
 
 .featured {
@@ -178,4 +179,38 @@ a.alt-pill-link{
 
 .image-container img{
     max-height: 5rem;
+}
+
+.section-content{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.task-text{
+    width:44%;
+}
+.task-text h2{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height:4.5rem;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.task-text h3{
+    color:#AAD9D9;
+    font-size: 1rem;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-weight: normal;
+}
+.task-section{
+    margin-top:8rem;
+}
+
+#pricing{
+    width:fit-content;
+    padding-right:3rem;
+    padding-left:3rem;
 }
