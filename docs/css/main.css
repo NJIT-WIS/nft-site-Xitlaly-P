@@ -294,8 +294,11 @@ h3{
 }
 
 .testimonial p {
-    font-size: .7rem;
+    padding-left: 1rem;
+    padding-right:1rem;
+    font-size: .9rem;
     margin-top: 10px;
+    font-style: italic;
 }
 
 .hero-content{
@@ -322,4 +325,89 @@ h3{
 .hero-content a{
     background-color: #000;
     margin-top: 2rem;
+}
+
+footer{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display:flex;
+    text-align: left;
+    gap: 6rem;
+}
+.kry{
+    font-weight: 500;
+    font-size:1.2rem;
+}
+
+.links{
+    width:1vw;
+    flex-grow: 1;
+}
+.logo{
+    flex-grow:1;
+}
+.join{
+    flex-grow:1;
+}
+h4{
+    font-weight: 600;
+    font-size: .9rem;
+}
+h5{
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-family: var(--font-primary);
+    font-style: oblique;
+}
+.join h3{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: normal;
+}
+
+
+.email-form {
+    margin-top: 1rem;
+    display: flex;
+    border-radius: 50px; /* Border radius for the container */
+    background-color: #111047; /* Match the background color */
+    width: fit-content;
+}
+
+.email-form input {
+    border: none;
+    background-color: transparent;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 16px;
+    flex-grow: 1;
+    color: #fff;
+    border-radius: 50px 0 0 50px; /* Round left side */
+}
+
+.email-form input::placeholder {
+    color: #b3b3b3; /* Placeholder text color */
+    margin-right: 0;
+    font-style: italic;
+}
+
+.email-form button {
+    border: none;
+    background-color: #7D7FD7; /* Button background color */
+    cursor: pointer;
+    border-radius: 50px; /* Round right side */
+    margin-right:0;
+    padding:.7rem 2rem;
+    font-size:1rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: #fff;
+}
+
+.email-form button:hover {
+    background-color: #4f5ab8; /* Darker shade for hover effect */
 }
