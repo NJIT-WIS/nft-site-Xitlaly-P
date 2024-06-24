@@ -121,6 +121,14 @@ a.alt-pill-link{
     font-weight:450;
 }
 
+a.alt-pill-link:hover {
+    transform: scale(1.01);
+}
+
+a.pill-link:hover{
+    transform: scale(1.01);
+}
+
 .hero-text{
     width:50%;
 }
@@ -410,4 +418,19 @@ h5{
 
 .email-form button:hover {
     background-color: #4f5ab8; /* Darker shade for hover effect */
+}
+
+.rect{
+    background: rgb(61,61,182);
+    background: linear-gradient(126deg, rgba(61,61,182,1) 0%, rgba(170,217,217,1) 100%);
+    width:100%;
+    height:.8rem;
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+    margin-bottom:0;
+    margin-right: 0;
+    margin-left:0;
 }
